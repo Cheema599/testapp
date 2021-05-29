@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import App1 from './Datetime';
+import Events from './Events';
 import App2 from './Gettime';
+import Inputapp from './Inputapp';
 
 
 ReactDOM.render(
     <>
-    <App2 />
+     <Inputapp />
     </>,
     document.getElementById('root')
 )
